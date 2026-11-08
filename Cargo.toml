@@ -1,4 +1,10 @@
 [package]
-name = "SigmaOS-apache-airflow"
+name = "sigmaos_apache_airflow"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "SigmaOS apache-airflow component inspired by Linux Mint / Omarchy / Arch Linux."
+
+[lib]
+name = "sigmaos_apache_airflow"
+path = "src/lib.rs"
